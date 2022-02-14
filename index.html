@@ -1,5 +1,28 @@
 <html>
- <body>
-   <h1>Hello!</h1>
- </body>
+<head>
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<h1>The Great <span id="color-display">RGB</span> Guessing Game</h1>
+	<div id ="strip">
+		<button id="reset">New Colors</button>
+		<span id="message"></span>
+		<button class="easybtn">Easy</button>
+		<button class="hardbtn">Hard</button>
+		
+	</div>
+	<div id="container">
+		<center>REMAINING CLICKS: <span id="clicksleft"></span></center>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
 </html>
